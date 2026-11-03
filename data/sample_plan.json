@@ -1,0 +1,481 @@
+{
+  "title": "南京 3 日劳动节旅行攻略",
+  "city": "南京",
+  "start_date": "2026-05-01",
+  "end_date": "2026-05-03",
+  "generated_at": "2026-11-03 01:29",
+  "source": "sample",
+  "mcp_tools_used": [],
+  "weather": {
+    "cards": [
+      {
+        "date": "2026-05-01",
+        "week": "周五",
+        "kind": "历史同期气候参考",
+        "dayweather": "多云",
+        "nightweather": "多云",
+        "daytemp": "26",
+        "nighttemp": "16",
+        "wind": "东南风 1-3级"
+      },
+      {
+        "date": "2026-05-02",
+        "week": "周六",
+        "kind": "历史同期气候参考",
+        "dayweather": "晴",
+        "nightweather": "多云",
+        "daytemp": "27",
+        "nighttemp": "17",
+        "wind": "东风 1-3级"
+      },
+      {
+        "date": "2026-05-03",
+        "week": "周日",
+        "kind": "历史同期气候参考",
+        "dayweather": "阴转小雨",
+        "nightweather": "小雨",
+        "daytemp": "24",
+        "nighttemp": "17",
+        "wind": "东北风 3-4级"
+      }
+    ],
+    "live": [],
+    "note": "未获取到实时天气，卡片显示南京 5 月上旬历史同期气候。"
+  },
+  "tips": [
+    "白天最高约 27°C，紫外线较强，注意防晒补水；早晚温差大，带件薄外套。",
+    "行程中可能有降雨，请携带雨具；雨天可把南京博物院等室内场馆调整到下雨当天。",
+    "五一是南京客流最高峰：中山陵、南京博物院、总统府、纪念馆都需提前实名预约，建议提前 7 天蹲放票。",
+    "同一天景点之间打车最省心；节假日景区门口打车难，可提前在高德地图“打车”里预约，或步行到附近路口上车。",
+    "钟山风景区内有观光小火车，中山陵到明孝陵也可乘坐，体力不够时可作为替代。",
+    "夫子庙秦淮河画舫晚上排队较长，建议 18:00 前到码头购票。",
+    "必吃：鸭血粉丝汤、盐水鸭、小笼包、梅花糕、赤豆元宵，老门东和夫子庙周边都有老字号。",
+    "纪念馆周一闭馆，请注意日期；馆内保持肃静，着装得体。"
+  ],
+  "days": [
+    {
+      "index": 1,
+      "date": "2026-05-01",
+      "week": "周五",
+      "theme": "钟山风景区 · 民国风情",
+      "color": "#E5484D",
+      "map_color": "0xE5484D",
+      "spots": [
+        {
+          "name": "中山陵",
+          "intro": "孙中山先生陵寝，392 级台阶登顶可俯瞰钟山，建议早上 8 点前到达避开人流。",
+          "ticket": "免费（需提前在“中山陵园风景区”小程序预约）",
+          "stay": 2.5,
+          "location": [
+            118.848,
+            32.0646
+          ],
+          "address": "",
+          "poi_id": null,
+          "photos": [],
+          "rating": null,
+          "opentime": null,
+          "tel": null,
+          "verified": false,
+          "arrive": "09:00",
+          "leave": "11:30"
+        },
+        {
+          "name": "明孝陵",
+          "intro": "明太祖朱元璋与马皇后合葬陵，世界文化遗产，石象路两侧石像生非常出片。",
+          "ticket": "70 元",
+          "stay": 2.0,
+          "location": [
+            118.8306,
+            32.059
+          ],
+          "address": "",
+          "poi_id": null,
+          "photos": [],
+          "rating": null,
+          "opentime": null,
+          "tel": null,
+          "verified": false,
+          "arrive": "12:51",
+          "leave": "14:51"
+        },
+        {
+          "name": "南京总统府",
+          "intro": "中国近代史遗址博物馆，600 余年历史，可看到太平天国天王府和民国总统府旧址。",
+          "ticket": "35 元（需实名预约）",
+          "stay": 2.0,
+          "location": [
+            118.7975,
+            32.0446
+          ],
+          "address": "",
+          "poi_id": null,
+          "photos": [],
+          "rating": null,
+          "opentime": null,
+          "tel": null,
+          "verified": false,
+          "arrive": "15:19",
+          "leave": "17:19"
+        }
+      ],
+      "legs": [
+        {
+          "from": "中山陵",
+          "to": "明孝陵",
+          "estimated": true,
+          "polyline": [
+            [
+              118.848,
+              32.0646
+            ],
+            [
+              118.8306,
+              32.059
+            ]
+          ],
+          "nav_url": "https://uri.amap.com/navigation?from=118.848000%2C32.064600%2C%E4%B8%AD%E5%B1%B1%E9%99%B5&to=118.830600%2C32.059000%2C%E6%98%8E%E5%AD%9D%E9%99%B5&mode=car&policy=1&src=nanjing-trip&coordinate=gaode&callnative=0",
+          "distance_km": 2.4,
+          "duration_min": 11,
+          "taxi_cost": 11.0
+        },
+        {
+          "from": "明孝陵",
+          "to": "南京总统府",
+          "estimated": true,
+          "polyline": [
+            [
+              118.8306,
+              32.059
+            ],
+            [
+              118.7975,
+              32.0446
+            ]
+          ],
+          "nav_url": "https://uri.amap.com/navigation?from=118.830600%2C32.059000%2C%E6%98%8E%E5%AD%9D%E9%99%B5&to=118.797500%2C32.044600%2C%E5%8D%97%E4%BA%AC%E6%80%BB%E7%BB%9F%E5%BA%9C&mode=car&policy=1&src=nanjing-trip&coordinate=gaode&callnative=0",
+          "distance_km": 4.7,
+          "duration_min": 18,
+          "taxi_cost": 15.2
+        }
+      ],
+      "schedule": [
+        {
+          "time": "09:00-11:30",
+          "type": "spot",
+          "text": "中山陵"
+        },
+        {
+          "time": "11:30-12:30",
+          "type": "meal",
+          "text": "午餐"
+        },
+        {
+          "time": "12:30-12:51",
+          "type": "taxi",
+          "text": "打车 2.4 公里 · 车程约 11 分钟（另留 10 分钟候车）· 约 11 元"
+        },
+        {
+          "time": "12:51-14:51",
+          "type": "spot",
+          "text": "明孝陵"
+        },
+        {
+          "time": "14:51-15:19",
+          "type": "taxi",
+          "text": "打车 4.7 公里 · 车程约 18 分钟（另留 10 分钟候车）· 约 15 元"
+        },
+        {
+          "time": "15:19-17:19",
+          "type": "spot",
+          "text": "南京总统府"
+        }
+      ],
+      "taxi_total": 26
+    },
+    {
+      "index": 2,
+      "date": "2026-05-02",
+      "week": "周六",
+      "theme": "博物馆 · 老城南 · 秦淮夜色",
+      "color": "#0091FF",
+      "map_color": "0x0091FF",
+      "spots": [
+        {
+          "name": "南京博物院",
+          "intro": "中国三大博物馆之一，历史馆、民国馆必看，民国馆里可以体验民国街景。",
+          "ticket": "免费（提前 7 天预约，节假日秒光）",
+          "stay": 3.0,
+          "location": [
+            118.8237,
+            32.0412
+          ],
+          "address": "",
+          "poi_id": null,
+          "photos": [],
+          "rating": null,
+          "opentime": null,
+          "tel": null,
+          "verified": false,
+          "arrive": "09:00",
+          "leave": "12:00"
+        },
+        {
+          "name": "老门东",
+          "intro": "保留明清老城南风貌的街区，青砖黛瓦，小吃众多，适合下午慢逛。",
+          "ticket": "免费",
+          "stay": 2.0,
+          "location": [
+            118.7895,
+            32.013
+          ],
+          "address": "",
+          "poi_id": null,
+          "photos": [],
+          "rating": null,
+          "opentime": null,
+          "tel": null,
+          "verified": false,
+          "arrive": "13:32",
+          "leave": "15:32"
+        },
+        {
+          "name": "夫子庙秦淮风光带",
+          "intro": "夜游秦淮河是南京名片，灯光亮起后（约 18:30）乘画舫最佳。",
+          "ticket": "街区免费，秦淮河画舫约 80 元",
+          "stay": 2.5,
+          "location": [
+            118.7887,
+            32.0215
+          ],
+          "address": "",
+          "poi_id": null,
+          "photos": [],
+          "rating": null,
+          "opentime": null,
+          "tel": null,
+          "verified": false,
+          "arrive": "15:50",
+          "leave": "18:20"
+        }
+      ],
+      "legs": [
+        {
+          "from": "南京博物院",
+          "to": "老门东",
+          "estimated": true,
+          "polyline": [
+            [
+              118.8237,
+              32.0412
+            ],
+            [
+              118.7895,
+              32.013
+            ]
+          ],
+          "nav_url": "https://uri.amap.com/navigation?from=118.823700%2C32.041200%2C%E5%8D%97%E4%BA%AC%E5%8D%9A%E7%89%A9%E9%99%A2&to=118.789500%2C32.013000%2C%E8%80%81%E9%97%A8%E4%B8%9C&mode=car&policy=1&src=nanjing-trip&coordinate=gaode&callnative=0",
+          "distance_km": 6.1,
+          "duration_min": 22,
+          "taxi_cost": 18.4
+        },
+        {
+          "from": "老门东",
+          "to": "夫子庙秦淮风光带",
+          "estimated": true,
+          "polyline": [
+            [
+              118.7895,
+              32.013
+            ],
+            [
+              118.7887,
+              32.0215
+            ]
+          ],
+          "nav_url": "https://uri.amap.com/navigation?from=118.789500%2C32.013000%2C%E8%80%81%E9%97%A8%E4%B8%9C&to=118.788700%2C32.021500%2C%E5%A4%AB%E5%AD%90%E5%BA%99%E7%A7%A6%E6%B7%AE%E9%A3%8E%E5%85%89%E5%B8%A6&mode=car&policy=1&src=nanjing-trip&coordinate=gaode&callnative=0",
+          "distance_km": 1.3,
+          "duration_min": 8,
+          "taxi_cost": 11.0
+        }
+      ],
+      "schedule": [
+        {
+          "time": "09:00-12:00",
+          "type": "spot",
+          "text": "南京博物院"
+        },
+        {
+          "time": "12:00-13:00",
+          "type": "meal",
+          "text": "午餐"
+        },
+        {
+          "time": "13:00-13:32",
+          "type": "taxi",
+          "text": "打车 6.1 公里 · 车程约 22 分钟（另留 10 分钟候车）· 约 18 元"
+        },
+        {
+          "time": "13:32-15:32",
+          "type": "spot",
+          "text": "老门东"
+        },
+        {
+          "time": "15:32-15:50",
+          "type": "taxi",
+          "text": "打车 1.3 公里 · 车程约 8 分钟（另留 10 分钟候车）· 约 11 元"
+        },
+        {
+          "time": "15:50-18:20",
+          "type": "spot",
+          "text": "夫子庙秦淮风光带"
+        }
+      ],
+      "taxi_total": 29
+    },
+    {
+      "index": 3,
+      "date": "2026-05-03",
+      "week": "周日",
+      "theme": "铭记历史 · 古寺湖光",
+      "color": "#30A46C",
+      "map_color": "0x30A46C",
+      "spots": [
+        {
+          "name": "侵华日军南京大屠杀遇难同胞纪念馆",
+          "intro": "铭记历史、缅怀同胞，馆内请保持肃静，参观约 2~3 小时。",
+          "ticket": "免费（需预约，周一闭馆）",
+          "stay": 2.5,
+          "location": [
+            118.7425,
+            32.0365
+          ],
+          "address": "",
+          "poi_id": null,
+          "photos": [],
+          "rating": null,
+          "opentime": null,
+          "tel": null,
+          "verified": false,
+          "arrive": "09:00",
+          "leave": "11:30"
+        },
+        {
+          "name": "鸡鸣寺",
+          "intro": "“南朝四百八十寺”之首，寺后可登明城墙远眺玄武湖。",
+          "ticket": "10 元（含三支香）",
+          "stay": 1.5,
+          "location": [
+            118.7963,
+            32.0631
+          ],
+          "address": "",
+          "poi_id": null,
+          "photos": [],
+          "rating": null,
+          "opentime": null,
+          "tel": null,
+          "verified": false,
+          "arrive": "13:07",
+          "leave": "14:37"
+        },
+        {
+          "name": "玄武湖",
+          "intro": "江南最大的城内公园，傍晚沿湖骑行或散步，城墙与紫峰大厦同框。",
+          "ticket": "免费",
+          "stay": 2.5,
+          "location": [
+            118.798,
+            32.072
+          ],
+          "address": "",
+          "poi_id": null,
+          "photos": [],
+          "rating": null,
+          "opentime": null,
+          "tel": null,
+          "verified": false,
+          "arrive": "14:56",
+          "leave": "17:26"
+        }
+      ],
+      "legs": [
+        {
+          "from": "侵华日军南京大屠杀遇难同胞纪念馆",
+          "to": "鸡鸣寺",
+          "estimated": true,
+          "polyline": [
+            [
+              118.7425,
+              32.0365
+            ],
+            [
+              118.7963,
+              32.0631
+            ]
+          ],
+          "nav_url": "https://uri.amap.com/navigation?from=118.742500%2C32.036500%2C%E4%BE%B5%E5%8D%8E%E6%97%A5%E5%86%9B%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%B1%A0%E6%9D%80%E9%81%87%E9%9A%BE%E5%90%8C%E8%83%9E%E7%BA%AA%E5%BF%B5%E9%A6%86&to=118.796300%2C32.063100%2C%E9%B8%A1%E9%B8%A3%E5%AF%BA&mode=car&policy=1&src=nanjing-trip&coordinate=gaode&callnative=0",
+          "distance_km": 7.9,
+          "duration_min": 27,
+          "taxi_cost": 22.8
+        },
+        {
+          "from": "鸡鸣寺",
+          "to": "玄武湖",
+          "estimated": true,
+          "polyline": [
+            [
+              118.7963,
+              32.0631
+            ],
+            [
+              118.798,
+              32.072
+            ]
+          ],
+          "nav_url": "https://uri.amap.com/navigation?from=118.796300%2C32.063100%2C%E9%B8%A1%E9%B8%A3%E5%AF%BA&to=118.798000%2C32.072000%2C%E7%8E%84%E6%AD%A6%E6%B9%96&mode=car&policy=1&src=nanjing-trip&coordinate=gaode&callnative=0",
+          "distance_km": 1.4,
+          "duration_min": 9,
+          "taxi_cost": 11.0
+        }
+      ],
+      "schedule": [
+        {
+          "time": "09:00-11:30",
+          "type": "spot",
+          "text": "侵华日军南京大屠杀遇难同胞纪念馆"
+        },
+        {
+          "time": "11:30-12:30",
+          "type": "meal",
+          "text": "午餐"
+        },
+        {
+          "time": "12:30-13:07",
+          "type": "taxi",
+          "text": "打车 7.9 公里 · 车程约 27 分钟（另留 10 分钟候车）· 约 23 元"
+        },
+        {
+          "time": "13:07-14:37",
+          "type": "spot",
+          "text": "鸡鸣寺"
+        },
+        {
+          "time": "14:37-14:56",
+          "type": "taxi",
+          "text": "打车 1.4 公里 · 车程约 9 分钟（另留 10 分钟候车）· 约 11 元"
+        },
+        {
+          "time": "14:56-17:26",
+          "type": "spot",
+          "text": "玄武湖"
+        }
+      ],
+      "taxi_total": 34
+    }
+  ],
+  "personal_map_url": null,
+  "warnings": [
+    "未配置高德 Key，使用内置示例数据（地图与实时天气不可用）"
+  ]
+}

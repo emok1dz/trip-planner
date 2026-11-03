@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>南京劳动节 3 日游攻略</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">高德地图 MCP · 智能行程规划</p>
+      <h1 id="title">南京 3 日劳动节旅行攻略</h1>
+      <p id="subtitle" class="subtitle">加载中…</p>
+      <nav id="day-nav" class="day-nav"></nav>
+    </div>
+  </header>
+
+  <main>
+    <div id="banner" class="banner" hidden></div>
+
+    <section class="section">
+      <h2>天气预报</h2>
+      <p id="weather-note" class="muted"></p>
+      <div id="weather" class="weather-grid"></div>
+      <div id="live-weather" class="live-weather"></div>
+    </section>
+
+    <section class="section">
+      <h2>旅行小贴士</h2>
+      <ul id="tips" class="tips"></ul>
+    </section>
+
+    <div id="days"></div>
+
+    <section class="section" id="overview-map-section" hidden>
+      <h2>全程行程地图</h2>
+      <p class="muted">由高德 MCP <code>maps_schema_personal_map</code> 生成的专属行程地图，可在高德地图 App/网页中打开查看与导航。</p>
+      <a id="personal-map" class="btn" target="_blank" rel="noopener">在高德地图中打开全程行程</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p id="footer-source"></p>
+    <p class="muted">景点开放与预约政策以官方发布为准 · 打车费用为高德路线估算</p>
+  </footer>
+
+  <div id="lightbox" class="lightbox" hidden><img alt=""></div>
+  <script src="app.js"></script>
+</body>
+</html>
